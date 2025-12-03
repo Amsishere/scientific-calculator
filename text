@@ -1,0 +1,23 @@
+scientific-calculator-suite/
+├── src/
+│   └── main/java/com/calculator/
+│       ├── core/
+│       │   ├── ExpressionEvaluator.java
+│       │   ├── InfixToPostfixConverter.java
+│       │   ├── MathFunctionRegistry.java
+│       │   └── ValidationEngine.java
+│       ├── gui/
+│       │   ├── CalculatorGUI.java
+│       │   ├── GraphPlotter.java
+│       │   └── styles.css
+│       └── CalculatorApp.java
+├── test/
+│   └── ExpressionEvaluatorTest.java
+├── docs/
+│   ├── demo-screenshot.png
+│   └── architecture-diagram.png
+├── .gitignore
+├── README.md
+├── LICENSE
+├── pom.xml (Maven)
+└── build.gradle (Gradle - choose one)
